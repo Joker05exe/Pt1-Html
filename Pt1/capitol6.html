@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document de Treball - Imatges, Àudios i Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        img {
+            margin: 10px;
+        }
+        audio, video, iframe {
+            margin: 10px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>Imatges, Àudios i Vídeos</h2>
+
+    <!-- Secció d'imatges -->
+    <h3>Imatges representatives</h3>
+    <p>Aquí tens dues imatges representatives amb mides uniformes:</p>
+    <img src="imatges/imatge1.jpg" alt="Imatge representativa 1" width="200" height="200">
+    <img src="imatges/imatge2.jpg" alt="Imatge representativa 2" width="200" height="200">
+
+    <!-- Menú per a àudio i vídeo amb bookmarks -->
+    <h3>Menú</h3>
+    <ul>
+        <li><a href="#audio">Anar a la secció d'àudio</a></li>
+        <li><a href="#video">Anar a la secció de vídeo</a></li>
+    </ul>
+
+    <!-- Secció d'àudio -->
+    <h3 id="audio">Àudio</h3>
+    <p>Aquí tens tres fitxers d'àudio amb controls:</p>
+    <audio controls>
+        <source src="audio/audio1.mp3" type="audio/mpeg">
+        El teu navegador no suporta l'element d'àudio.
+    </audio>
+    <audio controls>
+        <source src="audio/audio2.mp3" type="audio/mpeg">
+        El teu navegador no suporta l'element d'àudio.
+    </audio>
+    <audio controls>
+        <source src="audio/audio3.mp3" type="audio/mpeg">
+        El teu navegador no suporta l'element d'àudio.
+    </audio>
+
+    <!-- Secció de vídeo -->
+    <h3 id="video">Vídeo</h3>
+    <p>Aquí tens tres vídeos incrustats des de YouTube amb controls:</p>
+    <iframe width="782" height="440" src="https://www.youtube.com/embed/rbuYtrNUxg4" title="Curso HTML per a principiants" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="782" height="440" src="https://www.youtube.com/embed/bEDyP3rxPfA" title="Ruthless Piano Sheet Music (Tsubasa Chronicles)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="782" height="440" src="https://www.youtube.com/embed/9bZkp7q19f0" title="Exemple de vídeo addicional" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
